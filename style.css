@@ -1,0 +1,101 @@
+:root {
+    --MAINC: #fcfcfc;
+    --A1: #ddd;
+    --A2: #333;
+    --A3: #fafafa;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--A3);
+    color: var(--A2);
+}
+
+header {
+    background: var(--A2);
+    color: var(--MAINC);
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: var(--MAINC);
+    text-decoration: none;
+    padding: 1%;
+}
+
+main {
+    flex: 1;
+    width: 50%;
+    margin: auto;
+    background-color: var(--MAINC);
+}
+
+section {
+    padding: 1em 2rem;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: var(--A1);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: auto;
+    justify-content: center;
+}
+
+.projectSection h2{
+    text-align: center;
+}
+
+.project {
+    border: 2px solid var(--A1);
+    background-color: var(--A3);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: auto 10px;
+    min-width: 50px;
+    max-width: 80%;
+    width: auto;
+}
+
+.project h3 {
+    margin-top: 5px;
+}
+
+.project p {
+    width: auto;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: var(--A2);
+    color: var(--MAINC);
+    width: 100%;
+    bottom: 0;
+}

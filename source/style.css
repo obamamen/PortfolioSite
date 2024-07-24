@@ -52,7 +52,8 @@ section {
     max-width: 800px;
     margin: 10px auto;
     background-color: var(--A1);
-    border-radius: 10px;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgb(112, 112, 112);
 }
 
 h2 {
@@ -72,7 +73,7 @@ h2 {
 }
 
 .project {
-    border: 2px solid var(--A1);
+    border: 0px solid var(--A1);
     background-color: var(--A3);
     padding: 1.5rem;
     border-radius: 10px;
@@ -80,6 +81,7 @@ h2 {
     min-width: 50px;
     max-width: 80%;
     width: auto;
+    box-shadow: 2px 2px 8px rgb(112, 112, 112);
 }
 
 .project h3 {
